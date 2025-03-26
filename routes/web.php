@@ -2,11 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function() {
+    return view('web.homepage');
+   });
 Route::get('/Prodak', function () {
-    return view('Prodak'); 
+    return view('prodak'); 
 });
 Route::get('/daftar-prodak', function () {
     return view('daftar-prodak'); 
